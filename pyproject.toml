@@ -1,0 +1,53 @@
+[project]
+name = "python-mastery"
+version = "0.1.0"
+description = "A free, hands-on course that takes you from your first print() to asyncio."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "mypy>=1.11",
+    "pytest>=8.3",
+    "pytest-asyncio>=0.24",
+    "pytest-timeout>=2.3",
+    "ruff>=0.6",
+]
+
+# This is a course, not a library: nothing to build or publish.
+[tool.uv]
+package = false
+
+# ---------------------------------------------------------------------------
+# Tests
+#   uv run pytest                      -> solutions, practice, lesson output check
+#   uv run pytest -m exercise          -> YOUR answers in every exercises/ folder
+#   uv run pytest -m exercise tests/l01_basics   -> one level only
+# Exercise tests are left out of a plain run (see tests/conftest.py), so the
+# build stays green until a learner solves them.
+# ---------------------------------------------------------------------------
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = ["--strict-markers", "-ra", "-p", "pytester"]
+markers = [
+    "exercise: checks the learner's answers; run with: uv run pytest -m exercise",
+]
+# A learner's endless loop fails instead of hanging the run.
+timeout = 5
+asyncio_mode = "strict"
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "B", "UP", "SIM", "RUF"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = ["course", "tests", "start.py"]

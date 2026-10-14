@@ -1,0 +1,23 @@
+### Python ###
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+### PyCharm ###
+# Project settings stay local; shared run configurations live in .run/
+.idea/
+
+### Other IDEs ###
+.vscode/
+
+### OS ###
+.DS_Store
+Thumbs.db
