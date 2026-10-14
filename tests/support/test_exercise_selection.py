@@ -23,7 +23,11 @@ def test_solved():
 @pytest.fixture
 def project(pytester: pytest.Pytester) -> pytest.Pytester:
     pytester.makeconftest(CONFTEST)
-    pytester.makeini("[pytest]\nmarkers =\n    exercise: learner answers\n")
+    pytester.makeini(
+        "[pytest]\n"
+        "markers =\n    exercise: learner answers\n"
+        "asyncio_default_fixture_loop_scope = function\n"
+    )
     pytester.makepyfile(test_exercises=EXERCISE_FILE, test_solutions=SOLUTION_FILE)
     return pytester
 
