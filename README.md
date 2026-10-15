@@ -57,7 +57,7 @@ uv run pytest         # everything should be green
 | Level | Topic | Status |
 |------:|-------|:------:|
 | 01 | [Basics](course/l01_basics/README.md) — print, variables, numbers, strings, f-strings, operators, input | ✅ |
-| 02 | Control flow — if, `match`, `range`, loops, `for`-`else` | 🚧 |
+| 02 | [Control flow](course/l02_control_flow/README.md) — if, `match`, `range`, loops, `for`-`else` | ✅ |
 | 03 | Functions — defaults, `*args`/`**kwargs`, keyword-only, scope, recursion, type hints | 🚧 |
 | 04 | Collections — lists, tuples, dicts, sets, comprehensions, copying, `collections` | 🚧 |
 | 05 | None & errors — `None`, exceptions, custom exceptions, EAFP vs LBYL, `except*` | 🚧 |

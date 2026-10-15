@@ -21,9 +21,18 @@ Tip: fork this repository so you can commit your exercise answers and keep track
 - [ ] Practice A: [Temperature converter](course/l01_basics/practice/temperature/temperature.py)
 - [ ] Practice B: [BMI calculator](course/l01_basics/practice/bmi/bmi.py)
 
-## Level 02 — Control flow
+## Level 02 — Control flow · [README](course/l02_control_flow/README.md)
 
-_Coming soon._
+- [ ] 02.1 [if, elif and else](course/l02_control_flow/lesson01_if/if_statements.py)
+- [ ] 02.2 [match: pattern matching](course/l02_control_flow/lesson02_match/match_statements.py)
+- [ ] 02.3 [range(): sequences of whole numbers](course/l02_control_flow/lesson03_ranges/ranges.py)
+- [ ] 02.4 [for loops](course/l02_control_flow/lesson04_for_loops/for_loops.py)
+- [ ] 02.5 [while loops](course/l02_control_flow/lesson05_while/while_loops.py)
+- [ ] 02.6 [break, continue and loop else](course/l02_control_flow/lesson06_break_continue/break_continue.py)
+- [ ] Exercises: [exercises.py](course/l02_control_flow/exercises/exercises.py) (12 tests green)
+- [ ] Practice A: [FizzBuzz three ways](course/l02_control_flow/practice/fizzbuzz/fizzbuzz.py)
+- [ ] Practice B: [Times table](course/l02_control_flow/practice/times_table/times_table.py)
+- [ ] Practice C: [Number guessing game](course/l02_control_flow/practice/guessing/guessing.py)
 
 ## Level 03 — Functions
 
