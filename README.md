@@ -62,7 +62,7 @@ uv run pytest         # everything should be green
 | 04 | [Collections](course/l04_collections/README.md) — lists, tuples, dicts, sets, comprehensions, copying, `collections` | ✅ |
 | 05 | [None & errors](course/l05_errors/README.md) — `None`, exceptions, custom exceptions, EAFP vs LBYL, `except*` | ✅ |
 | 06 | [OOP](course/l06_oop/README.md) — classes, properties, dunder methods, inheritance, ABCs, `Protocol`, dataclasses, enums | ✅ |
-| 07 | Functional — closures, decorators, iterators, generators, `itertools`, `functools` | 🚧 |
+| 07 | [Functional](course/l07_functional/README.md) — closures, decorators, iterators, generators, `itertools`, `functools` | ✅ |
 | 08 | Typing — generics, variance, `Protocol`, `TypedDict`, `Literal`, overloads, mypy | 🚧 |
 | 09 | Files & stdlib — modules, `pathlib`, context managers, json/csv, logging, argparse | 🚧 |
 | 10 | Concurrency — threads & the GIL, locks, `concurrent.futures`, multiprocessing | 🚧 |

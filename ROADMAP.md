@@ -87,9 +87,18 @@ Tip: fork this repository so you can commit your exercise answers and keep track
 - [ ] Practice A: [Bank accounts](course/l06_oop/practice/bank_account/bank_account.py)
 - [ ] Practice B: [A deck of cards](course/l06_oop/practice/card_deck/card_deck.py)
 
-## Level 07 — Functional & iterators
+## Level 07 — Functional · [README](course/l07_functional/README.md)
 
-_Coming soon._
+- [ ] 07.1 [Lambdas and higher-order functions](course/l07_functional/lesson01_higher_order/higher_order.py)
+- [ ] 07.2 [Closures](course/l07_functional/lesson02_closures/closures.py)
+- [ ] 07.3 [Decorators](course/l07_functional/lesson03_decorators/decorators.py)
+- [ ] 07.4 [Iterators](course/l07_functional/lesson04_iterators/iterators.py)
+- [ ] 07.5 [Generators](course/l07_functional/lesson05_generators/generators.py)
+- [ ] 07.6 [itertools](course/l07_functional/lesson06_itertools/itertools_tour.py)
+- [ ] 07.7 [functools](course/l07_functional/lesson07_functools/functools_tour.py)
+- [ ] Exercises: [exercises.py](course/l07_functional/exercises/exercises.py) (19 tests green)
+- [ ] Practice A: [A lazy log pipeline](course/l07_functional/practice/log_pipeline/log_pipeline.py)
+- [ ] Practice B: [A command registry](course/l07_functional/practice/command_registry/command_registry.py)
 
 ## Level 08 — Typing & generics
 
