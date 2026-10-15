@@ -62,9 +62,17 @@ Tip: fork this repository so you can commit your exercise answers and keep track
 - [ ] Practice B: [Gradebook](course/l04_collections/practice/gradebook/gradebook.py)
 - [ ] Practice C: [Shop inventory](course/l04_collections/practice/inventory/inventory.py)
 
-## Level 05 — None & errors
+## Level 05 — None & errors · [README](course/l05_errors/README.md)
 
-_Coming soon._
+- [ ] 05.1 [None: the absence of a value](course/l05_errors/lesson01_none/none_values.py)
+- [ ] 05.2 [Catching exceptions: try / except / else / finally](course/l05_errors/lesson02_exceptions/exceptions.py)
+- [ ] 05.3 [Raising exceptions](course/l05_errors/lesson03_raising/raising.py)
+- [ ] 05.4 [Custom exceptions](course/l05_errors/lesson04_custom_exceptions/custom_exceptions.py)
+- [ ] 05.5 [EAFP vs LBYL](course/l05_errors/lesson05_eafp_lbyl/eafp_lbyl.py)
+- [ ] 05.6 [Exception groups, except* and notes](course/l05_errors/lesson06_exception_groups/exception_groups.py)
+- [ ] Exercises: [exercises.py](course/l05_errors/exercises/exercises.py) (19 tests green)
+- [ ] Practice A: [Config file parser](course/l05_errors/practice/config_parser/config_parser.py)
+- [ ] Practice B: [Safe calculator](course/l05_errors/practice/calculator/calculator.py)
 
 ## Level 06 — OOP
 
