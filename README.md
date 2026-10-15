@@ -61,7 +61,7 @@ uv run pytest         # everything should be green
 | 03 | [Functions](course/l03_functions/README.md) — defaults, `*args`/`**kwargs`, keyword-only, scope, recursion, type hints | ✅ |
 | 04 | [Collections](course/l04_collections/README.md) — lists, tuples, dicts, sets, comprehensions, copying, `collections` | ✅ |
 | 05 | [None & errors](course/l05_errors/README.md) — `None`, exceptions, custom exceptions, EAFP vs LBYL, `except*` | ✅ |
-| 06 | OOP — classes, properties, dunder methods, inheritance, ABCs, `Protocol`, dataclasses, enums | 🚧 |
+| 06 | [OOP](course/l06_oop/README.md) — classes, properties, dunder methods, inheritance, ABCs, `Protocol`, dataclasses, enums | ✅ |
 | 07 | Functional — closures, decorators, iterators, generators, `itertools`, `functools` | 🚧 |
 | 08 | Typing — generics, variance, `Protocol`, `TypedDict`, `Literal`, overloads, mypy | 🚧 |
 | 09 | Files & stdlib — modules, `pathlib`, context managers, json/csv, logging, argparse | 🚧 |

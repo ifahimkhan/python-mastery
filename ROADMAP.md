@@ -74,9 +74,18 @@ Tip: fork this repository so you can commit your exercise answers and keep track
 - [ ] Practice A: [Config file parser](course/l05_errors/practice/config_parser/config_parser.py)
 - [ ] Practice B: [Safe calculator](course/l05_errors/practice/calculator/calculator.py)
 
-## Level 06 — OOP
+## Level 06 — OOP · [README](course/l06_oop/README.md)
 
-_Coming soon._
+- [ ] 06.1 [Classes and objects](course/l06_oop/lesson01_classes/classes.py)
+- [ ] 06.2 [Properties, class methods and static methods](course/l06_oop/lesson02_properties/properties.py)
+- [ ] 06.3 [Dunder methods](course/l06_oop/lesson03_dunder_methods/dunder_methods.py)
+- [ ] 06.4 [Inheritance and composition](course/l06_oop/lesson04_inheritance/inheritance.py)
+- [ ] 06.5 [Abstract base classes and Protocols](course/l06_oop/lesson05_abc_protocol/abc_protocol.py)
+- [ ] 06.6 [Dataclasses](course/l06_oop/lesson06_dataclasses/data_classes.py)
+- [ ] 06.7 [Enums](course/l06_oop/lesson07_enums/enums.py)
+- [ ] Exercises: [exercises.py](course/l06_oop/exercises/exercises.py) (23 tests green)
+- [ ] Practice A: [Bank accounts](course/l06_oop/practice/bank_account/bank_account.py)
+- [ ] Practice B: [A deck of cards](course/l06_oop/practice/card_deck/card_deck.py)
 
 ## Level 07 — Functional & iterators
 
