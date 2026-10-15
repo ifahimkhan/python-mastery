@@ -100,9 +100,18 @@ Tip: fork this repository so you can commit your exercise answers and keep track
 - [ ] Practice A: [A lazy log pipeline](course/l07_functional/practice/log_pipeline/log_pipeline.py)
 - [ ] Practice B: [A command registry](course/l07_functional/practice/command_registry/command_registry.py)
 
-## Level 08 — Typing & generics
+## Level 08 — Typing · [README](course/l08_typing/README.md)
 
-_Coming soon._
+- [ ] 08.1 [Type checking basics](course/l08_typing/lesson01_type_basics/type_basics.py)
+- [ ] 08.2 [Generics](course/l08_typing/lesson02_generics/generics.py)
+- [ ] 08.3 [Variance](course/l08_typing/lesson03_variance/variance.py)
+- [ ] 08.4 [Protocols in depth](course/l08_typing/lesson04_protocols/protocols.py)
+- [ ] 08.5 [TypedDict, Literal, Final and NamedTuple](course/l08_typing/lesson05_typeddict_literal/typeddict_literal.py)
+- [ ] 08.6 [Overloads, type guards and exhaustiveness](course/l08_typing/lesson06_overloads/overloads.py)
+- [ ] 08.7 [Typing callables and decorators](course/l08_typing/lesson07_callables/callables.py)
+- [ ] Exercises: [exercises.py](course/l08_typing/exercises/exercises.py) (25 tests green, mypy clean)
+- [ ] Practice A: [A generic Result type](course/l08_typing/practice/result_type/result_type.py)
+- [ ] Practice B: [A typed event bus](course/l08_typing/practice/event_bus/event_bus.py)
 
 ## Level 09 — Files & stdlib
 
