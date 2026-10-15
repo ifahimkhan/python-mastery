@@ -48,9 +48,19 @@ Tip: fork this repository so you can commit your exercise answers and keep track
 - [ ] Practice B: [Receipt printer](course/l03_functions/practice/receipt/receipt.py)
 - [ ] Practice C: [Towers of Hanoi](course/l03_functions/practice/hanoi/hanoi.py)
 
-## Level 04 — Collections
+## Level 04 — Collections · [README](course/l04_collections/README.md)
 
-_Coming soon._
+- [ ] 04.1 [Lists](course/l04_collections/lesson01_lists/lists.py)
+- [ ] 04.2 [Tuples and unpacking](course/l04_collections/lesson02_tuples/tuples.py)
+- [ ] 04.3 [Dictionaries](course/l04_collections/lesson03_dicts/dicts.py)
+- [ ] 04.4 [Sets](course/l04_collections/lesson04_sets/sets.py)
+- [ ] 04.5 [Comprehensions](course/l04_collections/lesson05_comprehensions/comprehensions.py)
+- [ ] 04.6 [Names, references and copies](course/l04_collections/lesson06_copying/copying.py)
+- [ ] 04.7 [The collections module](course/l04_collections/lesson07_collections_module/collections_module.py)
+- [ ] Exercises: [exercises.py](course/l04_collections/exercises/exercises.py) (13 tests green)
+- [ ] Practice A: [Word statistics](course/l04_collections/practice/word_stats/word_stats.py)
+- [ ] Practice B: [Gradebook](course/l04_collections/practice/gradebook/gradebook.py)
+- [ ] Practice C: [Shop inventory](course/l04_collections/practice/inventory/inventory.py)
 
 ## Level 05 — None & errors
 
