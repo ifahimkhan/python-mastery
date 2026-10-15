@@ -34,9 +34,19 @@ Tip: fork this repository so you can commit your exercise answers and keep track
 - [ ] Practice B: [Times table](course/l02_control_flow/practice/times_table/times_table.py)
 - [ ] Practice C: [Number guessing game](course/l02_control_flow/practice/guessing/guessing.py)
 
-## Level 03 — Functions
+## Level 03 — Functions · [README](course/l03_functions/README.md)
 
-_Coming soon._
+- [ ] 03.1 [Function basics](course/l03_functions/lesson01_basics/function_basics.py)
+- [ ] 03.2 [Default values and keyword arguments](course/l03_functions/lesson02_defaults/defaults_and_keywords.py)
+- [ ] 03.3 [*args and **kwargs](course/l03_functions/lesson03_args_kwargs/args_kwargs.py)
+- [ ] 03.4 [Keyword-only and positional-only parameters](course/l03_functions/lesson04_parameter_kinds/parameter_kinds.py)
+- [ ] 03.5 [Scope: where a name lives](course/l03_functions/lesson05_scope/scope.py)
+- [ ] 03.6 [Recursion](course/l03_functions/lesson06_recursion/recursion.py)
+- [ ] 03.7 [Type hints and functions as values](course/l03_functions/lesson07_type_hints/type_hints.py)
+- [ ] Exercises: [exercises.py](course/l03_functions/exercises/exercises.py) (11 tests green)
+- [ ] Practice A: [A tiny text-tools library](course/l03_functions/practice/text_tools/text_tools.py)
+- [ ] Practice B: [Receipt printer](course/l03_functions/practice/receipt/receipt.py)
+- [ ] Practice C: [Towers of Hanoi](course/l03_functions/practice/hanoi/hanoi.py)
 
 ## Level 04 — Collections
 
