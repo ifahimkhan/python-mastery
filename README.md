@@ -64,11 +64,11 @@ uv run pytest         # everything should be green
 | 06 | [OOP](course/l06_oop/README.md) — classes, properties, dunder methods, inheritance, ABCs, `Protocol`, dataclasses, enums | ✅ |
 | 07 | [Functional](course/l07_functional/README.md) — closures, decorators, iterators, generators, `itertools`, `functools` | ✅ |
 | 08 | [Typing](course/l08_typing/README.md) — generics, variance, `Protocol`, `TypedDict`, `Literal`, overloads, mypy | ✅ |
-| 09 | Files & stdlib — modules, `pathlib`, context managers, json/csv, logging, argparse | 🚧 |
-| 10 | Concurrency — threads & the GIL, locks, `concurrent.futures`, multiprocessing | 🚧 |
-| 11 | asyncio — `await`, `TaskGroup`, timeouts, cancellation, queues, rate limits | 🚧 |
-| 12 | Advanced — descriptors, `__slots__`, metaclasses, operator overloading, DSLs | 🚧 |
-| 13 | Capstones — library CLI, weather aggregator, task scheduler | 🚧 |
+| 09 | [Files & stdlib](course/l09_files_stdlib/README.md) — modules, `pathlib`, context managers, json/csv, logging, argparse | ✅ |
+| 10 | [Concurrency](course/l10_concurrency/README.md) — threads & the GIL, locks, `concurrent.futures`, multiprocessing | ✅ |
+| 11 | [asyncio](course/l11_asyncio/README.md) — `await`, `TaskGroup`, timeouts, cancellation, queues, rate limits | ✅ |
+| 12 | [Advanced](course/l12_advanced/README.md) — descriptors, `__slots__`, metaclasses, operator overloading, DSLs | ✅ |
+| 13 | [Capstones](course/l13_capstones/README.md) — library CLI, weather aggregator, task scheduler | ✅ |
 
 ## Repository layout
 
@@ -89,6 +89,7 @@ tests/                tests for exercises, solutions and practice projects
 | `uv run pytest -m exercise` | Checks **your** answers in every `exercises/` folder |
 | `uv run pytest -m exercise tests/l02_control_flow` | Checks your answers for one level only |
 | `uv run python -m course.<level>.<lesson>.<module>` | Runs one lesson |
+| `uv run pytest -m exercise -k "library and TestM1"` | Checks one milestone of a capstone |
 | `uv run python start.py` | Shows the welcome screen |
 | `uv run ruff check . && uv run mypy` | Lint and type check |
 

@@ -125,6 +125,28 @@ class TestBasicsExercises(BasicsContract):
 A plain `uv run pytest` leaves exercise tests out (see `tests/conftest.py`).
 They run with `-m exercise`, or when you name the file or click its run arrow in PyCharm.
 
+## Capstones (level 13)
+
+```
+course/l13_capstones/<project>/
+├── README.md     the brief: rules, milestones (M1..Mn), hints, stretch goals
+├── contract.py   the Protocol to implement, docstring on every method
+├── starter/      learner implementation: every body raises NotImplementedError("M1: ...")
+├── reference/    one finished answer
+└── main.py       runnable program (uses reference until the learner switches it)
+
+tests/l13_capstones/<project>/
+├── acceptance.py       one class per milestone: M1Catalogue, M2Loans, ...
+├── test_reference.py   TestM1Catalogue(M1Catalogue) with the reference: runs by default
+└── test_starter.py     the same classes with the starter, marked `exercise`
+```
+
+- Select a milestone with `-k "library and TestM1"`. `-k` is case-insensitive,
+  so `M1` alone would also match test ids such as a member called `m1`.
+- Async capstone tests run on virtual time (`tests/support/virtual_time.py`):
+  exact timings, no real waiting. Real network calls never happen in tests
+  (`httpx.MockTransport` stands in for the server).
+
 ## Style
 
 - PEP 8 via `ruff` (lint + format), 4 spaces, max 100 chars.
